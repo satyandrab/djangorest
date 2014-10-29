@@ -62,7 +62,7 @@ CORS_ALLOW_HEADERS = (
     'X-CSRFToken'
 )
 
-ROOT_URLCONF = 'zendesk_app.urls'
+ROOT_URLCONF = 'urls'
 
 WSGI_APPLICATION = 'zendesk_app.wsgi.application'
 
